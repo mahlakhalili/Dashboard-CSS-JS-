@@ -18,7 +18,7 @@
     }
 
     aside{
-        width: 50%;
+        width: 75%;
         background-color: var(--color_white);
         z-index: 999;
     }

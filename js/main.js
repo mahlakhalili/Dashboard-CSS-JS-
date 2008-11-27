@@ -6,3 +6,8 @@ burger_menu.addEventListener('click',e=>{
     sidebar.classList.add('.d_block')
     bgColor.classList.add('.d_block')
 })
+
+bg_cover.addEventListener('click',e=>{
+    sidebar.classList.remove('.d_block')
+    bgColor.classList.remove('.d_block')
+})
