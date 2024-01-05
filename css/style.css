@@ -1,27 +1,62 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+}
+
+/* colors light */
+
+:root{
+    --color_white        : #fff;
+    --color_black        : #14161D;
+    --color_gray         : #1A2029;
+    --color_light_gray   : #f8f8f8;
+    --color_dark_gray    : #31353f;
+    --color_blue         : #3A6FF8;
+    --color_light_purple : #8C77ED;
+    --color_green        : #1ECB4F;
+    --color_light_red    : #F46D22;
+}
+
+/* color dark */
+
+:root[data-theme="dark"]{
+    --color_white : rgb(211, 142, 211);
 }
 
 @font-face {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 900;
+    font-family : Raleway;
+    font-style  : normal;
+    font-weight : 900;
     src: url('../fonts/Raleway/Raleway-Black.woff') format(woff);
 }
 
 @font-face {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 700;
+    font-family : Raleway;
+    font-style  : normal;
+    font-weight : 700;
     src: url('../fonts/Raleway/Raleway-Bold.woff') format(woff);
 }
 
 @font-face {
     font-family: Raleway;
+    font-style : normal;
+    font-weight: 600;
+    src: url('../fonts/Raleway/Raleway-SemiBold.woff') format(woff);
+}
+
+@font-face {
+    font-family: Raleway;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
+    src: url('../fonts/Raleway/Raleway-Medium.woff') format(woff);
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
     src: url('../fonts/Raleway/Raleway-Light.woff') format(woff);
 }
+
 
