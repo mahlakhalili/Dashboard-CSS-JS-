@@ -210,10 +210,31 @@ header .search_header button{
 header .user_action{
     display: flex;
     align-items: center;
+    gap: 2rem;
+}
+
+header .user_action .message_user button{
+    background-color: var(--color_white);
+    border: none;
+    border-radius: 8px;
+    width: 44px;
+    height: 44px;
 }
 
 header .user_info{
     display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .user_info .full_name_user{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+header .user_info .full_name_user span:last-child{
+    position: relative;
+    top: 5px;
 }
 
 
