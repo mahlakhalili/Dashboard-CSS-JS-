@@ -1,0 +1,11 @@
+@media (max-width:999px){
+    body{
+        grid-template-areas: 
+            "header header"
+            "main main"
+        
+    }
+    aside{
+        display: none;
+    }
+}
