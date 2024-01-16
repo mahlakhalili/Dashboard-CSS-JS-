@@ -174,6 +174,14 @@ aside .navigation_sidebar li span{
     border-radius: 5px;
 }
 
+header .burger_menu{
+    display: flex;
+    align-items: center;
+    border: 2px solid #D1D5DB;
+    border-radius: 12px;
+    padding: 5px;
+}
+
 header .title_header h5{
     color: var(--color_black);
     font-size: 32px;
@@ -237,6 +245,47 @@ header .user_info .full_name_user span:last-child{
     position: relative;
     top: 5px;
 }
+
+main .search_header{
+    background-color: var(--color_white);
+    border-radius: 8px;
+    padding: 0 20px;
+    width: 52%;
+    height: 44px;
+    position: relative;
+}
+
+main .search_header input{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+border: 2px solid var(--Default-gray-400, #9CA3AF);
+    background-color: transparent;
+    color: rgba(26, 32, 41, 0.50);
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+main .search_header button{
+    position: absolute;
+    right: 30px;
+    top: 22%;
+    background-color: var(--color_white);
+    border: none;
+}
+
+.main_search{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.main_search form{
+    width: 90%;
+}
+
 
 
 

@@ -3,9 +3,18 @@
         grid-template-areas: 
             "header header"
             "main main"
-        
+
     }
-    aside{
+    aside , .title_header , header .search_header{
         display: none;
     }
+
+}
+
+@media (min-width:1000px){
+    .burger_menu, main .search_header{
+        display: none;
+    }
+
+    
 }
