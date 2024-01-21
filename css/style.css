@@ -233,7 +233,7 @@ header .user_action .message_user button{
 header .user_info{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
 }
 
 /* header .user_info .full_name_user{
@@ -259,7 +259,8 @@ main .search_header input{
     width: 100%;
     height: 100%;
     border-radius: 12px;
-border: 2px solid var(--Default-gray-400, #9CA3AF);
+    border: none;
+    /* border: 2px solid var(--Default-gray-400, #9CA3AF); */
     background-color: transparent;
     color: rgba(26, 32, 41, 0.50);
     font-family: Raleway;
@@ -284,6 +285,23 @@ main .search_header button{
 
 .main_search form{
     width: 90%;
+}
+
+.burger_menu{
+    display: block;
+}
+
+.d_block{
+    display: block !important;
+}
+
+.bg_cover{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background: #000;
 }
 
 

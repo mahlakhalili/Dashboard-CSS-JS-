@@ -5,14 +5,28 @@
             "main main"
 
     }
-    aside , .title_header , header .search_header{
+    aside , .title_header , header .search_header , .full_name_user{
         display: none;
+    }
+
+    header{
+        padding: 8px;
+    }
+
+    header .user_action{
+        gap: 5px;
+    }
+
+    aside{
+        width: 50%;
+        background-color: var(--color_white);
+        z-index: 999;
     }
 
 }
 
 @media (min-width:1000px){
-    .burger_menu, main .search_header{
+    header .burger_menu, main .search_header{
         display: none;
     }
 
